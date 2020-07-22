@@ -21,4 +21,5 @@ def _calculate_next_purchase(purchased_flowers, cost):
                for index, value in enumerate(purchased_flowers))
 
 
-print(get_minimum_cost(3, [1, 3, 5, 7, 9]))
+if __name__ == '__main__':
+    print(get_minimum_cost(3, [1, 3, 5, 7, 9]))

@@ -17,4 +17,5 @@ def max_subset_sum(arr):
     return max_sums[-1]
 
 
-print(max_subset_sum([-2, 1, 3, -4, 5]))
+if __name__ == '__main__':
+    print(max_subset_sum([-2, 1, 3, -4, 5]))

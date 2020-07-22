@@ -10,4 +10,5 @@ def sock_merchant(n, array):
     return sum(i // 2 for i in socks_counter.values())
 
 
-print(sock_merchant(7, [10, 20, 20, 10, 10, 30, 50, 10, 20]))
+if __name__ == '__main__':
+    print(sock_merchant(7, [10, 20, 20, 10, 10, 30, 50, 10, 20]))

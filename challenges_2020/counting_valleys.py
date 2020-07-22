@@ -20,4 +20,5 @@ def counting_valleys(n, s):
     return valley_count
 
 
-print(counting_valleys(8, "UDDDUDUU"))
+if __name__ == '__main__':
+    print(counting_valleys(8, "UDDDUDUU"))

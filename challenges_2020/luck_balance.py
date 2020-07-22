@@ -20,4 +20,5 @@ def luck_balance(k, contests):
     return total_luck
 
 
-print(luck_balance(3, [[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]))
+if __name__ == '__main__':
+    print(luck_balance(3, [[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]))

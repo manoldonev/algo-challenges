@@ -31,4 +31,5 @@ def max_pairs(skill_levels, min_diff):
     return pairs
 
 
-print(max_pairs([3, 4, 5, 2, 1, 1], 3))
+if __name__ == '__main__':
+    print(max_pairs([3, 4, 5, 2, 1, 1], 3))

@@ -9,4 +9,5 @@ def minimum_absolute_difference(arr):
     return min(abs(x - y) for x, y in zip(sorted_array, sorted_array[1:]))
 
 
-print(minimum_absolute_difference([1, -3, 71, 68, 17]))
+if __name__ == '__main__':
+    print(minimum_absolute_difference([1, -3, 71, 68, 17]))

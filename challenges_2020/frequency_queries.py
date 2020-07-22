@@ -27,7 +27,8 @@ def frequency_queries(queries):
     return output
 
 
-print(frequency_queries([(3, 4),
-                         (2, 1003),
-                         (1, 16),
-                         (3, 1)]))
+if __name__ == '__main__':
+    print(frequency_queries([(3, 4),
+                             (2, 1003),
+                             (1, 16),
+                             (3, 1)]))

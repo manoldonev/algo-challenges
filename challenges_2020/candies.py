@@ -19,4 +19,5 @@ def candies(n, ratings):
     return sum(result)
 
 
-print(candies(10, [2, 4, 2, 6, 1, 7, 8, 9, 2, 1]))
+if __name__ == '__main__':
+    print(candies(10, [2, 4, 2, 6, 1, 7, 8, 9, 2, 1]))

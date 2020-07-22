@@ -28,4 +28,5 @@ def abbreviation(a, b):
     return "YES" if memo[n][m] else "NO"
 
 
-print(abbreviation("daBcd", "ABC"))
+if __name__ == '__main__':
+    print(abbreviation("daBcd", "ABC"))

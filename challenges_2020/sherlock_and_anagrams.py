@@ -16,4 +16,5 @@ def sherlock_and_anagrams(s):
     return sum(v * (v - 1) // 2 for v in counter.values() if v > 1)
 
 
-print(sherlock_and_anagrams("cdcd"))
+if __name__ == '__main__':
+    print(sherlock_and_anagrams("cdcd"))

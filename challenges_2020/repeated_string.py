@@ -21,4 +21,5 @@ def repeated_string(s, n):
     return result
 
 
-print(repeated_string("aab", 882787))
+if __name__ == '__main__':
+    print(repeated_string("aab", 882787))

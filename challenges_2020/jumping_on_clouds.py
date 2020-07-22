@@ -18,4 +18,5 @@ def jumping_on_clouds(array):
     return jumps
 
 
-print(jumping_on_clouds([0, 0, 0, 1, 0, 0]))
+if __name__ == '__main__':
+    print(jumping_on_clouds([0, 0, 0, 1, 0, 0]))

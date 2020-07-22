@@ -24,4 +24,5 @@ def minion_game(string):
     return "Draw"
 
 
-print(minion_game("BANANA"))
+if __name__ == '__main__':
+    print(minion_game("BANANA"))

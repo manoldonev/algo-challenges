@@ -25,4 +25,5 @@ def count_triplets(arr, r):
     return result
 
 
-print(count_triplets([1, 5, 5, 25, 125], 5))
+if __name__ == '__main__':
+    print(count_triplets([1, 5, 5, 25, 125], 5))
