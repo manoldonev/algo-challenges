@@ -1,6 +1,10 @@
 
+"""Min distinct subarray"""
+
 
 def find_min_distinct_subarray(array):
+    """Find min length subarray with all distinct values from input array."""
+
     distinct_count = len(set(array))
     last_seen = {}
     sequence_start = None
