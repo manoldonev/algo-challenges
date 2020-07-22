@@ -1,9 +1,9 @@
 
-"""Min distinct subarray"""
+"""Min distinct subsequence"""
 
 
-def find_min_distinct_subarray(array):
-    """Find min length subarray with all distinct values from input array."""
+def find_min_distinct_subsequence(array):
+    """Find min length subsequence with all distinct values from input array."""
 
     distinct_count = len(set(array))
     last_seen = {}
@@ -31,19 +31,19 @@ def find_min_distinct_subarray(array):
 
 if __name__ == '__main__':
     # [1, 2, 2, 3]
-    print(find_min_distinct_subarray([1, 2, 1, 2, 2, 3, 2]))
+    print(find_min_distinct_subsequence([1, 2, 1, 2, 2, 3, 2]))
 
     # [2, 3, 1]
-    print(find_min_distinct_subarray(
+    print(find_min_distinct_subsequence(
         [2, 2, 1, 2, 2, 3, 1, 1, 2, 2, 1, 2, 2, 3]))
 
     # [2, 1, 1, 1, 3]
-    print(find_min_distinct_subarray(
+    print(find_min_distinct_subsequence(
         [2, 2, 1, 2, 2, 1, 1, 1, 3, 3, 3, 3, 3, 1, 1, 1, 1]))
 
     # [1, 2, 2, 2, 2, 2, 3]
-    print(find_min_distinct_subarray([1, 2, 2, 2, 2, 2, 3]))
+    print(find_min_distinct_subsequence([1, 2, 2, 2, 2, 2, 3]))
 
     # [3, 2, 2, 1]
-    print(find_min_distinct_subarray(
+    print(find_min_distinct_subsequence(
         [3, 1, 1, 1, 2, 2, 2, 2, 2, 3, 2, 2, 1]))
