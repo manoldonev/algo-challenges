@@ -1,1 +1,1 @@
-# hacker-rank
+# algo-challenges
