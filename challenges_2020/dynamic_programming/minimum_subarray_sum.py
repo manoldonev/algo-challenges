@@ -7,6 +7,8 @@ from typing import List
 
 
 def minimum_subarray_sum(target: int, numbers: List[int]) -> int:
+    """https://leetcode.com/problems/minimum-size-subarray-sum"""
+
     fast, slow = 0, 0
     current_sum = 0
     min_length = sys.maxsize
