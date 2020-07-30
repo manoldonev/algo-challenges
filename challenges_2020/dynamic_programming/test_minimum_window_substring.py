@@ -4,7 +4,7 @@ import unittest
 from minimum_window_substring import minimum_window_substring
 
 
-class MinimumWindowSubstring(unittest.TestCase):
+class MinimumWindowSubstringTests(unittest.TestCase):
 
     """Tests for minimum window substring challenge."""
 
