@@ -2,7 +2,7 @@
 """Longest Substring Without Repeating Characters"""
 
 
-def maximum_distinct_substring_length(s: str) -> int:
+def find_length(s: str) -> int:
     """https://leetcode.com/problems/longest-substring-without-repeating-characters"""
 
     char_to_index_map = {}
