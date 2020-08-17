@@ -1,10 +1,10 @@
 
 import unittest
 
-from sliding_window_k_maximum import maximum_sliding_window
+from sliding_window_maximum import maximum_sliding_window
 
 
-class SlidingWindowKMaximumTests(unittest.TestCase):
+class SlidingWindowMaximumTests(unittest.TestCase):
     """Tests for sliding window maximum challenge."""
 
     def test_case_1(self):
