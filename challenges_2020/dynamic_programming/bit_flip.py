@@ -9,7 +9,7 @@ def bit_flip(array):
     original_zeroes = 0
     current_sum, max_sum = 0, 0
     for value in array:
-        if value == 0:
+        if not value:
             value = -1
             original_zeroes += 1
 
