@@ -2,7 +2,6 @@
 """Minimum Window Subsequence"""
 
 import sys
-from collections import defaultdict, deque
 
 
 def minimum_window_subsequence(s: str, t: str) -> str:
@@ -41,7 +40,3 @@ def minimum_window_subsequence(s: str, t: str) -> str:
         return ""
 
     return s[min_start_index:min_start_index + min_length]
-
-
-if __name__ == "__main__":
-    print(minimum_window_subsequence("abcdebdde", "bde"))
