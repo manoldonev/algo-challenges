@@ -8,16 +8,16 @@ from collections import deque
 def longest_subarray(numbers: List[int], limit: int) -> int:
     """https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/"""
 
-    # monotonic increasing queue with indices that could become the sliding window minimum
+    # monotone increasing queue with indices that could become the sliding window minimum
     min_queue = deque()
 
-    # monotonic decreasing queue with indices that could become the sliding window maximum
+    # monotone decreasing queue with indices that could become the sliding window maximum
     max_queue = deque()
 
     left, max_length = 0, 0
 
     for right, value in enumerate(numbers):
-        # maintain monotonic queue invariants
+        # maintain monotone queue invariants
         while min_queue and numbers[min_queue[-1]] > value:
             min_queue.pop()
 
