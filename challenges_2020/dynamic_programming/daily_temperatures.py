@@ -10,18 +10,18 @@ def daily_temperatures(temperatures: List[int]) -> List[int]:
 
     n = len(temperatures)
     distances = [0] * n
-    # monotone decreasing queue of indices
-    min_queue = []
+    # monotone decreasing stack of indices
+    min_stack = []
 
     for index, value in _reverse_enumerate(temperatures):
         # maintain monotone queue invariant
-        while min_queue and temperatures[min_queue[-1]] <= value:
-            min_queue.pop()
+        while min_stack and temperatures[min_stack[-1]] <= value:
+            min_stack.pop()
 
-        if min_queue:
-            distances[index] = min_queue[-1] - index
+        if min_stack:
+            distances[index] = min_stack[-1] - index
 
-        min_queue.append(index)
+        min_stack.append(index)
 
     return distances
 
