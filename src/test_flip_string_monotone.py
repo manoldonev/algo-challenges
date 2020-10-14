@@ -13,7 +13,7 @@ class MinFlipStringMonotoneIncreasingTests(unittest.TestCase):
     def test_case_2(self):
         self.assertEqual(count_min_flips('010110'), 2)
 
-    def test_case_2(self):
+    def test_case_3(self):
         self.assertEqual(count_min_flips('00011000'), 2)
 
 
