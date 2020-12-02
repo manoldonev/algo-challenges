@@ -1,8 +1,6 @@
 
 """Move Zeroes"""
 
-import sys
-
 from typing import List
 
 

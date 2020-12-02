@@ -46,7 +46,7 @@ class Tries(object):
     def find(self, partial):
         node = self.root
         for index, char in enumerate(partial):
-            if not node.children.has_key(char):
+            if char not in node.children:
                 return 0
 
             node = node.children[char]

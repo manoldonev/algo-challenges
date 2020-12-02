@@ -5,6 +5,8 @@ from typing import List
 
 
 def daily_temperatures(temperatures: List[int]) -> List[int]:
+    """https://leetcode.com/problems/daily-temperatures/"""
+
     if not temperatures:
         return []
 

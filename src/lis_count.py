@@ -1,8 +1,6 @@
 
 """Number of Longest Increasing Subsequence"""
 
-import sys
-
 from typing import List
 
 

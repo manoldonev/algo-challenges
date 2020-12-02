@@ -1,7 +1,7 @@
 
 """3Sum"""
 
-from typing import List, Tuple
+from typing import List
 
 
 def find_three_sum(numbers: List[int]) -> List[List[int]]:

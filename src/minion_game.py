@@ -9,8 +9,8 @@ def minion_game(string):
     stuart_score = 0
     kevin_score = 0
 
-    for i in range(len(string)):
-        if string[i] in vowels:
+    for i, char in enumerate(string):
+        if char in vowels:
             kevin_score += n - i
         else:
             stuart_score += n - i

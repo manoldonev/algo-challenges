@@ -34,7 +34,7 @@ class TrieNode:
 
 class Trie:
     """https://leetcode.com/problems/implement-trie-prefix-tree/"""
-    __slots__ = 'root'
+    __slots__ = ['root']
 
     def __init__(self):
         """
