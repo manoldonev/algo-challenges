@@ -15,13 +15,13 @@ def find_three_sum(numbers: List[int]) -> List[List[int]]:
 
         if pivot_index == 0 or \
                 numbers[pivot_index - 1] != numbers[pivot_index]:
-            for triplet in find_two_sum(numbers, pivot_index):
+            for triplet in _find_two_sum(numbers, pivot_index):
                 result.append(triplet)
 
     return result
 
 
-def find_two_sum(numbers: List[int], target_index: int) -> List[List[int]]:
+def _find_two_sum(numbers: List[int], target_index: int) -> List[List[int]]:
     seen = set()
     n = len(numbers)
     target = numbers[target_index]

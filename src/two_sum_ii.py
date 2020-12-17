@@ -10,7 +10,7 @@ def find_two_sum(numbers: List[int], target: int) -> List[int]:
     left = 0
     right = len(numbers) - 1
 
-    while True:
+    while left < right:
         if numbers[left] + numbers[right] > target:
             right -= 1
         elif numbers[left] + numbers[right] < target:
