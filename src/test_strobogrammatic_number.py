@@ -3,8 +3,9 @@ import unittest
 
 from strobogrammatic_number import is_strobogrammatic
 
+
 class StrobogrammaticNumberTests(unittest.TestCase):
-    """Tests fro strobogrammatic number challenge"""
+    """Tests for strobogrammatic number challenge"""
 
     def test_case_1(self):
         self.assertTrue(is_strobogrammatic('69'))
@@ -20,6 +21,7 @@ class StrobogrammaticNumberTests(unittest.TestCase):
 
     def test_case_5(self):
         self.assertFalse(is_strobogrammatic('69569'))
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
